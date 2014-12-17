@@ -1,0 +1,14 @@
+/*
+Theme Name: A Room Too Far WordPress Theme
+Theme URI: http://aroomtoofar.com
+Author: Matthew Isaac Lean
+Author URI: http://mattlean.com
+Description: The WordPress theme for A Room Too Far's website.
+Version: 0.1
+Tags: artf, a, room, too, far, wordpress, theme
+Text Domain: artf-wp-theme
+*/
+
+body {
+	background-color: #ccc;
+}
