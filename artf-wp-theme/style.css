@@ -9,6 +9,137 @@ Tags: artf, a, room, too, far, wordpress, theme
 Text Domain: artf-wp-theme
 */
 
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
 body {
-	background-color: #ccc;
+	font: 1em 'Roboto', sans-serif;
+	background-color: #000;
+	color: #fff;
+}
+
+h1 {
+	margin: 1.5em 0 0;
+	font: 2em 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	color: #ccc;
+}
+
+h2 {
+	margin: 1em 0 0;
+	font: 1.8em 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+ul {
+	margin: 0 0 1em 20px;
+	list-style-type: square;
+}
+
+b {
+	font-weight: bold;
+	color: #2ecc71;
+}
+
+#cover {
+	height: 400px;
+	background: #ccc url('img/cover.jpg') no-repeat center center / 100% auto;
+}
+
+#bgwrap {
+	margin-top: -140px;
+	padding-top: 70px;
+	background-color: #000;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(10%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 10%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 10%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 10%,rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 10%,rgba(0,0,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+#content {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+#footer {
+	width: 650px;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 0.9em;
+	color: #bbb;
+}
+
+@media (max-width: 1460px) {
+	#bgwrap {
+		margin-top: -150px;
+	}
+
+	#content {
+		max-width: 800px;
+	}
+}
+
+@media (max-width: 1200px) {
+	#bgwrap {
+		margin-top: -160px;
+	}
+
+	#content {
+		max-width: 600px;
+		padding-top: 90px;
+	}
+}
+
+@media (max-width: 750px) {
+	#bgwrap {
+		margin-top: -180px;
+	}
+
+	#cover {
+		background: #ccc url('img/cover-md.jpg') no-repeat center center;
+	}
+
+	#footer {
+		width: 580px;
+		font-size: 0.8em;
+	}
+}
+
+@media (max-width: 640px) {
+	#footer {
+		width: auto;
+		max-width: 470px;
+		font-size: 0.65em;
+	}
+}
+
+@media (max-width: 600px) {
+	#bgwrap {
+		margin-top: -250px;
+	}
+
+	#cover {
+		background: #ccc url('img/cover-md-2.jpg') no-repeat center center;
+	}
+}
+
+@media (max-width: 420px) {
+	#bgwrap {
+		margin-top: -350px;
+	}
+
+	#content {
+		padding-top: 90px;
+	}
+
+	#cover {
+		background: #ccc url('img/cover-sm.jpg') no-repeat center center;
+	}
 }
