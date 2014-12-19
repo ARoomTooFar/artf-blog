@@ -1,1 +1,1 @@
-<div>Yay sidebar!</div>
+	<div id="sidebar">Yay sidebar!</div>
