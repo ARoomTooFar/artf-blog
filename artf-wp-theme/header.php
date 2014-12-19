@@ -8,4 +8,6 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
 </head>
 <body>
-	<div id="cover"></div>
+	<div id="cover">
+		<div id="fade"></div>
+	</div>
