@@ -5,8 +5,12 @@
 			<?php while ( have_posts() ) : the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<div class="post-header">
+					<h1>
+						<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+							<?php the_title(); ?>
+						</a>
+					</h1>
 					<div class="date"><?php the_time( 'M j y' ); ?></div>
-					<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 					<div class="author"><?php the_author(); ?></div>
 				</div>
 				<div class="entry clear">
@@ -28,5 +32,6 @@
 			<?php endif; ?>
 		</div>
 		<?php get_sidebar(); ?>
+		<?php get_footer(); ?>
 	</div>
-<?php get_footer(); ?>
+	
