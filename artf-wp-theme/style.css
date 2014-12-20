@@ -42,14 +42,14 @@ h1 {
 	color: #ccc;
 }
 
-h1 a:link, h1 a:visited, h1 a:active {
+/*h1 a:link, h1 a:visited, h1 a:active {
 	color: #ccc;
 	text-decoration: none;
 }
 
 h1 a:hover {
 	color: #aaa;
-}
+}*/
 
 h2 {
 	margin: 1em 0 0;
@@ -116,13 +116,14 @@ em, i {
 	float: left;
 }
 
-.post-detail {
+.post-info {
 	color: #ddd;
+	text-transform: uppercase;
 }
 
 .genericon {
 	margin-right: 0.5em;
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 
 .genericon:before {
@@ -136,7 +137,7 @@ em, i {
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
-	line-height: 1.8;
+	line-height: 1.9;
 	text-decoration: inherit;
 	text-transform: none;
 	-moz-osx-font-smoothing: grayscale;
@@ -150,6 +151,24 @@ em, i {
 
 .date:before {
 	content: '\f303';
+}
+
+.post-footer {
+	text-transform: uppercase;
+}
+
+.comment {
+	float: right;
+}
+
+.comment:before {
+	content: '\f300';
+	line-height: 1.4;
+}
+
+#content hr {
+	margin-top: 3em;
+	clear: right;
 }
 
 #sidebar {
