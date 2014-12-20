@@ -112,6 +112,7 @@ em, i {
 
 #content {
 	max-width: 770px;
+	width: 100%;
 	padding-right: 10px;
 	float: left;
 }
@@ -172,7 +173,7 @@ em, i {
 }
 
 #sidebar {
-	min-width: 250px;
+	min-width: 230px;
 	float: right;
 }
 

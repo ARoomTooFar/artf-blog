@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 	<div id="wrapper">
 		<div id="content">
-			<?php if ( have_posts() ) : ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<div class="post-header">
@@ -16,19 +15,12 @@
 					<?php the_content(); ?>
 					
 				</div>
-				<div class="post-footer">
-					<?php comments_popup_link( '0 Comments', '1 Comment', '% Comments', 'genericon comment' ); ?>
-				</div>
 				<hr>
 			</div>
 			<?php endwhile; ?>
-			<div class="blognav">
-				<div class="alignleft"><?php next_posts_link( '&laquo; Older Entries' ); ?></div>
-				<div class="alignright"><?php previous_posts_link( 'Newer Entries &raquo;' ); ?></div>
-			</div>
-			<?php else : ?>
-			<?php endif; ?>
+			<?php comments_template(); ?> 
 		</div>
 		<?php get_sidebar(); ?>
 		<?php get_footer(); ?>
 	</div>
+	
