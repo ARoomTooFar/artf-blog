@@ -6,17 +6,19 @@
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<div class="post-header">
 					<h1><a href="<?php the_permalink(); ?>" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
-					<div class="author"><?php the_author(); ?></div>
-					<div class="date"><?php the_time( 'M j y' ); ?></div>
+					<div class="post-detail">
+						<span class="genericon author"><?php the_author(); ?></span>
+						<span class="genericon date"><?php the_time( 'F j, Y' ); ?></span>
+					</div>
 				</div>
 				<div class="entry clear">
 					<?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?>
 					<?php the_content(); ?>
-					<?php edit_post_link(); ?>
-					<?php wp_link_pages(); ?>
+					
 				</div>
 				<div class="post-footer">
-					<div class="comments"><?php comments_popup_link( 'Leave a Comment', '1 Comment', '% Comments' ); ?></div>
+					<?php edit_post_link(); ?>
+					<span class="comments"><?php comments_popup_link( 'Leave a Comment', '1 Comment', '% Comments' ); ?></span>
 				</div>
 				<hr>
 			</div>
