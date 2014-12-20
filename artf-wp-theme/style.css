@@ -90,7 +90,7 @@ em, i {
 }
 
 #wrapper {
-	max-width: 1200px;
+	max-width: 1120px;
 	margin: 0 auto;
 	padding: 0 50px 50px 50px;
 }
@@ -111,8 +111,8 @@ em, i {
 }
 
 #content {
-	width: 70%;
-	padding-right: 40px;
+	max-width: 770px;
+	padding-right: 10px;
 	float: left;
 }
 
@@ -172,8 +172,25 @@ em, i {
 }
 
 #sidebar {
-	width: 30%;
+	min-width: 250px;
 	float: right;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#sidebar li {
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+	text-align: center;
+}
+
+#sidebar li:last-child {
+	margin-bottom: 1em;
+	border-bottom: 0;
 }
 
 #footer {

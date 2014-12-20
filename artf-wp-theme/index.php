@@ -7,7 +7,7 @@
 				<div class="post-header">
 					<h1><a href="<?php the_permalink(); ?>" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 					<div class="post-info">
-						<span class="genericon author"><?php the_author(); ?></span>
+						<span class="genericon author"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author_meta( 'display_name' ); ?></a></span>
 						<span class="genericon date"><?php the_time( 'F j, Y' ); ?></span>
 					</div>
 				</div>
