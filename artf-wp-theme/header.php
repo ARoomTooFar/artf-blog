@@ -22,11 +22,11 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
+            <li class="active"><a href="/">About</a></li>
+            <li><a href="/blog">Blog</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
 	<div id="cover">
