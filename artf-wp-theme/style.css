@@ -74,6 +74,21 @@ em, i {
 	margin-right: 0.2em;
 }
 
+textarea {
+	color: #000;
+}
+
+input {
+	padding: 5px;
+	border: 0;
+	color: #111;
+	background-color: #2ecc71;
+}
+
+input:hover {
+	color: #eee;
+	background-color: #27ae60;
+}
 
 #cover {
 	height: 400px;

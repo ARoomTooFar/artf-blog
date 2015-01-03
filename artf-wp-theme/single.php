@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 	<div class="container">
-		<div id="content">
+		<div id="content" class="col-sm-9 col-xs-12">
 			<?php while ( have_posts() ) : the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<div class="post-header">
@@ -15,12 +15,10 @@
 					<?php the_content(); ?>
 					
 				</div>
-				<hr>
 			</div>
 			<?php endwhile; ?>
-			<?php comments_template(); ?> 
+			<?php comments_template(); ?>
 		</div>
 		<?php get_sidebar(); ?>
 		<?php get_footer(); ?>
 	</div>
-	
