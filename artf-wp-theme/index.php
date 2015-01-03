@@ -14,12 +14,11 @@
 				<div class="entry clear">
 					<?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?>
 					<?php the_content(); ?>
-					
 				</div>
 				<div class="post-footer">
 					<?php comments_popup_link( '0 Comments', '1 Comment', '% Comments', 'genericon comment' ); ?>
 				</div>
-				<hr>
+				<hr class="feeddivider">
 			</div>
 			<?php endwhile; ?>
 			<div class="blognav">

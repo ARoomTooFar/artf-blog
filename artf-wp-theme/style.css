@@ -43,8 +43,7 @@ h1 {
 }
 
 h2 {
-	margin: 1em 0 0;
-	font: 2em 'Roboto Condensed', sans-serif;
+	font: 1.7em 'Roboto Condensed', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -75,17 +74,25 @@ em, i {
 }
 
 textarea {
+	width: 420px;
+	height: 200px;
+	display: block;
 	color: #000;
 }
 
 input {
+	display: block;
+}
+
+input.submit {
+	margin-top: 0.5em;
 	padding: 5px;
 	border: 0;
 	color: #111;
 	background-color: #2ecc71;
 }
 
-input:hover {
+input.submit:hover {
 	color: #eee;
 	background-color: #27ae60;
 }
@@ -111,7 +118,7 @@ input:hover {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
 
-.post-info {
+.post-info, .comment-info {
 	color: #ddd;
 	text-transform: uppercase;
 }
@@ -161,7 +168,13 @@ input:hover {
 	line-height: 1.4;
 }
 
-#content hr {
+hr.feeddivider {
 	margin-top: 3em;
 	clear: both;
+}
+
+#comments {
+	margin: 0;
+	-webkit-padding-start: 0;
+	list-style-type: none;
 }
