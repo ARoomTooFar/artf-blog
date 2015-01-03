@@ -42,15 +42,6 @@ h1 {
 	color: #ccc;
 }
 
-/*h1 a:link, h1 a:visited, h1 a:active {
-	color: #ccc;
-	text-decoration: none;
-}
-
-h1 a:hover {
-	color: #aaa;
-}*/
-
 h2 {
 	margin: 1em 0 0;
 	font: 2em 'Roboto Condensed', sans-serif;
@@ -71,7 +62,7 @@ p {
 }
 
 ul {
-	margin: 0 0 1em 20px;
+	margin: 0 0 1em 0;
 	list-style-type: square;
 }
 
@@ -83,9 +74,6 @@ em, i {
 	margin-right: 0.2em;
 }
 
-.container {
-	padding: 0 80px 0px 80px;
-}
 
 #cover {
 	height: 400px;
@@ -106,13 +94,6 @@ em, i {
 	background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,1) 95%,rgba(0,0,0,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,1) 95%,rgba(0,0,0,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-}
-
-#content {
-	max-width: 770px;
-	width: 100%;
-	padding-right: 10px;
-	float: left;
 }
 
 .post-info {
@@ -167,104 +148,5 @@ em, i {
 
 #content hr {
 	margin-top: 3em;
-	clear: right;
-}
-
-#sidebar {
-	min-width: 230px;
-	float: right;
-}
-
-#sidebar ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-#sidebar li {
-	padding: 10px;
-	border-bottom: 1px solid #fff;
-	text-align: center;
-}
-
-#sidebar li:last-child {
-	margin-bottom: 1em;
-	border-bottom: 0;
-}
-
-#footer {
-	width: 650px;
-	margin: 0 auto;
-	padding: 10px;
-	font-size: 0.9em;
-	color: #bbb;
 	clear: both;
 }
-
-/*@media (max-width: 1460px) {
-	#bgwrap {
-		margin-top: -150px;
-	}
-
-	#content {
-		max-width: 800px;
-	}
-}
-
-@media (max-width: 1200px) {
-	#bgwrap {
-		margin-top: -160px;
-	}
-
-	#content {
-		max-width: 600px;
-		padding-top: 90px;
-	}
-}
-
-@media (max-width: 750px) {
-	#bgwrap {
-		margin-top: -180px;
-	}
-
-	#cover {
-		background: #ccc url('img/cover-md.jpg') no-repeat center center;
-	}
-
-	#footer {
-		width: 580px;
-		font-size: 0.8em;
-	}
-}
-
-@media (max-width: 640px) {
-	#footer {
-		width: auto;
-		max-width: 470px;
-		font-size: 0.65em;
-	}
-}
-
-@media (max-width: 600px) {
-	#bgwrap {
-		margin-top: -250px;
-	}
-
-	#cover {
-		background: #ccc url('img/cover-md-2.jpg') no-repeat center center;
-	}
-}
-
-@media (max-width: 420px) {
-	#bgwrap {
-		margin-top: -350px;
-	}
-
-	#content {
-		padding-top: 90px;
-	}
-
-	#cover {
-		background: #ccc url('img/cover-sm.jpg') no-repeat center center;
-	}
-}*/

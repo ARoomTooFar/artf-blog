@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<div id="wrapper">
+	<div class="container">
 		<div id="content">
 			<?php while ( have_posts() ) : the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
