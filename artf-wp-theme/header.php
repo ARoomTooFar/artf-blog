@@ -22,7 +22,7 @@
             <a id="logo" class="navbar-brand" href="/">A Room Too Far</a>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul id="navbar-items" class="nav navbar-nav navbar-right">
               <li><a href="/">About</a></li>
               <li><a href="/joinus">Join the Team</a></li>
               <li><a href="/blog">Blog</a></li>

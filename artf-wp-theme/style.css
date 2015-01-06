@@ -135,6 +135,10 @@ input.submit:hover {
 	color: #ddd !important;
 }
 
+#navbar-items {
+	text-align: center;
+}
+
 .post-info, .comment-info {
 	color: #ddd;
 	text-transform: uppercase;
