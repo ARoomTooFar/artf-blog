@@ -200,3 +200,7 @@ hr.feeddivider {
 	font-size: 0.8em;
 	color: #aaa;
 }
+
+#landing b {
+	color: #2ecc71;
+}
