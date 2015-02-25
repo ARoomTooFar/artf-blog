@@ -24,7 +24,7 @@
           <div id="navbar" class="collapse navbar-collapse">
             <ul id="navbar-items" class="nav navbar-nav navbar-right">
               <li><a href="/">About</a></li>
-              <li><a href="/joinus">Join the Team</a></li>
+              <li><a href="/join-us">Join the Team</a></li>
               <li><a href="/blog">Blog</a></li>
               <li><a href="/contact">Contact</a></li>
             </ul>

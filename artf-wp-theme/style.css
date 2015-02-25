@@ -80,11 +80,15 @@ textarea {
 	color: #000;
 }
 
+#cntctfrm_contact_name, #cntctfrm_contact_email, #cntctfrm_contact_subject, .cptch_input {
+	color: #000;
+}
+
 input {
 	display: block;
 }
 
-input.submit {
+input.cntctfrm_contact_submit {
 	margin-top: 0.5em;
 	padding: 5px;
 	border: 0;
@@ -92,7 +96,7 @@ input.submit {
 	background-color: #2ecc71;
 }
 
-input.submit:hover {
+input.cntctfrm_contact_submit:hover {
 	color: #eee;
 	background-color: #27ae60;
 }
