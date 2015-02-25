@@ -1,5 +1,10 @@
 	<div id="footer" class="col-xs-12">
-		<p class="text-center">&copy; 2014 - 2015 A Room Too Far</p>
+		
+		<div class="pull-right">
+			<a href="https://www.facebook.com/aroomtoofar" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/fb.png" alt="Facebook"></a>
+			<a href="https://twitter.com/aroomtoofar" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png" alt="Twitter"></a>
+		</div>
+		<p>&copy; 2014 - 2015 A Room Too Far</p>
 	</div>
 	<script src="<?php echo get_template_directory_uri(); ?>/import/jquery/jquery-1.11.2.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/import/bootstrap/js/bootstrap.js"></script>
