@@ -1,7 +1,7 @@
 	<div id="footer" class="col-xs-12">
 		
 		<div class="pull-right">
-			<a href="https://www.facebook.com/aroomtoofar" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/fb.png" alt="Facebook"></a>
+			<a href="https://facebook.com/aroomtoofar" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/fb.png" alt="Facebook"></a>
 			<a href="https://twitter.com/aroomtoofar" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png" alt="Twitter"></a>
 		</div>
 		<p>&copy; 2014 - 2015 A Room Too Far</p>
