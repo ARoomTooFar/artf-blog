@@ -88,7 +88,7 @@ input {
 	display: block;
 }
 
-input.cntctfrm_contact_submit {
+input.submit, input.cntctfrm_contact_submit {
 	margin-top: 0.5em;
 	padding: 5px;
 	border: 0;
